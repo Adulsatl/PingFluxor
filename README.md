@@ -20,7 +20,7 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/pingfluxor.git
+git clone https://github.com/Adulsatl/PingFluxor.git
 cd pingfluxor
 ```
 
