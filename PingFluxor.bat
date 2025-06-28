@@ -1,14 +1,19 @@
 @echo off
-REM Switch Port Fluctuation Tracker - Windows Double Click Launcher
+REM ==========================================
+REM  PingFluxor - IP Fluctuation Tracker
+REM  Windows Double-Click Launcher (Git Bash)
+REM ==========================================
 
-REM Change this path to your actual script location
 set SCRIPT_PATH=%~dp0switch_port_fluctuation_tracker.sh
 
-REM Run with Git Bash (if installed)
+REM Check if bash is available in PATH (Git Bash or WSL)
 where bash >nul 2>nul
+
 if %errorlevel%==0 (
+    echo 🔄 Running PingFluxor...
     bash "%SCRIPT_PATH%"
 ) else (
-    echo "Bash is not installed or not in PATH. Please install Git Bash or WSL."
+    echo ❌ Bash is not installed or not in PATH.
+    echo ➤ Please install Git Bash: https://gitforwindows.org/
     pause
 )
