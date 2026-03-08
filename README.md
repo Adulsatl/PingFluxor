@@ -68,8 +68,7 @@ To enable Telegram alerts:
 
 ## 👤 Author
 
-**Adul Sureshkumar**  
-📍 Trivandrum, Kerala, India  
+**Adul S**   
 📧 aduls.career@gmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/aduls2002)
 
